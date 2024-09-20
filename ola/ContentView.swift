@@ -28,6 +28,8 @@ struct ContentView: View {
                 .padding()
             Text("Maikol")
                 .padding()
+            Image(systemName: "heart.square.fill")
+                .foregroundColor(.red)
             
         }
     }
